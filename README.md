@@ -1,3 +1,5 @@
+The game is made on the Construct 2 engine
+
 # Racing2D
 
 A project that I started working on in 2019 and at the moment I want to complete it. This is a race with a top view, the project is free to download and take resources, I will update the repository once a week

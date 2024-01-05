@@ -1,0 +1,1449 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MAIN</name>
+    <events>
+        <variable constant="0" name="lvls" sid="636246753245312" static="0" type="number">0</variable>
+        <event-group description="" sid="831793975699093" title="читы">
+            <sub-events>
+                <event-block sid="118691070223216">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="303071530563223" type="Keyboard">
+                            <param id="0" name="Клавиша">48</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="723468049051124" type="TRIGGER">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="922607621062053" type="ENDcar">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="214932062152864" type="triggerCAR2">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="212217227596533" type="triggerDOOR">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="677912681345190" type="trigger_soungTRAIN1">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="220773543448549" type="trigger_soungTRAIN3">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="145965123236370" type="trigger_soungTRAIN4">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="405775469088155" type="EasterEGGtrain4">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                        <action behavior="EaseTween2" id="12" name="Pause" sid="798228738864800" type="вагоны" />
+                        <action behavior="EaseTween" id="12" name="Pause" sid="236904157365220" type="trainz" />
+                    </actions>
+                </event-block>
+                <event-block sid="243662906724453">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="437222752889084" type="Keyboard">
+                            <param id="0" name="Клавиша">49</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="344552417023996" type="TRIGGER">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="992610391478894" type="ENDcar">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="885546210155117" type="triggerCAR2">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="300633671070997" type="triggerDOOR">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="293605551597830" type="trigger_soungTRAIN1">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="380245178954376" type="trigger_soungTRAIN3">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="184383896375389" type="trigger_soungTRAIN4">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="644363439839554" type="EasterEGGtrain4">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="772193051930381">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="750857291318002" type="Keyboard">
+                            <param id="0" name="Клавиша">50</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Установить режим столкновения" sid="524492348127991" type="TRIGGER">
+                            <param id="0" name="Столкновения">0</param>
+                        </action>
+                        <action id="11" name="Установить режим столкновения" sid="719604863990296" type="забор">
+                            <param id="0" name="Столкновения">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="370719169835141">
+                    <conditions>
+                        <condition id="2" inverted="1" name="Клавиша нажата" sid="671441283410775" type="Keyboard">
+                            <param id="0" name="Клавиша">50</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Установить режим столкновения" sid="665020422460471" type="TRIGGER">
+                            <param id="0" name="Столкновения">1</param>
+                        </action>
+                        <action id="11" name="Установить режим столкновения" sid="129032293393086" type="забор">
+                            <param id="0" name="Столкновения">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="766599479074993">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="254356781533936" type="Keyboard">
+                            <param id="0" name="Клавиша">34</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Set pause state" sid="350267198566405" type="Pause">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="902229090373069" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="972673819521883">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="854808010076493" type="Keyboard">
+                            <param id="0" name="Клавиша">52</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="4" name="Задать макс скорость" sid="771989479230372" type="cars">
+                            <param id="0" name="Максимальная скорость">99999</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="497388256471042">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="516108068055952" type="Keyboard">
+                            <param id="0" name="Клавиша">53</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="510752823842577" type="cars">
+                            <param id="0" name="X">1418</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="379291219086145" type="cars">
+                            <param id="0" name="Y">7567</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="827035944379624">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="754356576363842" type="Keyboard">
+                            <param id="0" name="Клавиша">54</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="459784005805274" type="System">
+                            <param id="0" name="Layout">menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="656131578696016">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="703467064724284" type="Keyboard">
+                            <param id="0" name="Клавиша">55</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="132265984406451" type="System">
+                            <param id="0" name="Time scale">6</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="516372625871099">
+                    <conditions>
+                        <condition id="2" inverted="1" name="Клавиша нажата" sid="239464000407022" type="Keyboard">
+                            <param id="0" name="Клавиша">55</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="442611310796486" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="995384335692610">
+                    <conditions>
+                        <condition id="3" name="Выпущенная клавиша" sid="702660380066251" type="Keyboard">
+                            <param id="0" name="Клавиша">192</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-17" name="Set layer scale" sid="827346914523635" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Scale">0.6</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="784049509796849" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Scale">0.6</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="165391730205588" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Scale">0.6</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="113490802928028" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Scale">0.6</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="587138096245851" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Scale">0.6</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="147064748820396" type="System">
+                            <param id="0" name="Layer">5</param>
+                            <param id="1" name="Scale">0.6</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="481724610906529" type="System">
+                            <param id="0" name="Layer">6</param>
+                            <param id="1" name="Scale">0.6</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="133795344678462" title="машина игрока">
+            <sub-events>
+                <event-group description="" sid="779077846505208" title="выбор машин игрока">
+                    <sub-events>
+                        <event-block sid="385955300951253">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="431317521229515" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="940817545075901" type="cars">
+                                    <param id="0" name="Анимация">&quot;c5&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="765821092307934" type="cars">
+                                    <param id="0" name="Максимальная скорость">600</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="633828293209435">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="646864796698696" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="109095986028015" type="cars">
+                                    <param id="0" name="Анимация">&quot;c6&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="860319773590634" type="cars">
+                                    <param id="0" name="Максимальная скорость">450</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="239263976416401">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="507036768111358" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="620804405088594" type="cars">
+                                    <param id="0" name="Анимация">&quot;c15&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="664164713379845" type="cars">
+                                    <param id="0" name="Максимальная скорость">400</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="917398069046027">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="997930383910968" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="619985559319578" type="cars">
+                                    <param id="0" name="Анимация">&quot;c2&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="297815598840000" type="cars">
+                                    <param id="0" name="Максимальная скорость">350</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="978883643439793">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="864724889297000" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="290894677989628" type="cars">
+                                    <param id="0" name="Анимация">&quot;c1&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="982739550194811" type="cars">
+                                    <param id="0" name="Максимальная скорость">250</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="819439386483374">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="681111043515425" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="305594666365727" type="cars">
+                                    <param id="0" name="Анимация">&quot;c9&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="214573808451801" type="cars">
+                                    <param id="0" name="Максимальная скорость">200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="871327408884608">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="961204363974130" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="937152636292471" type="cars">
+                                    <param id="0" name="Анимация">&quot;c4&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="671921014015080" type="cars">
+                                    <param id="0" name="Максимальная скорость">290</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="351168949288402">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="688983906804391" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="959316305505514" type="cars">
+                                    <param id="0" name="Анимация">&quot;c3&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="799148552631700" type="cars">
+                                    <param id="0" name="Максимальная скорость">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="476981669029963">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="254425434798186" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="672791924013891" type="cars">
+                                    <param id="0" name="Анимация">&quot;c10&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="957077753131757" type="cars">
+                                    <param id="0" name="Максимальная скорость">80</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="147989807703201">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="968646290454540" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="872482310765416" type="cars">
+                                    <param id="0" name="Анимация">&quot;c13&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="131837115914280" type="cars">
+                                    <param id="0" name="Максимальная скорость">370</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="685473719030490">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="856360078305319" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="113867656125702" type="cars">
+                                    <param id="0" name="Анимация">&quot;c14&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="504361567160107" type="cars">
+                                    <param id="0" name="Максимальная скорость">420</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="192315494787387">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="807522060884591" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="365727127218303" type="cars">
+                                    <param id="0" name="Анимация">&quot;c12&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="277004125695329" type="cars">
+                                    <param id="0" name="Максимальная скорость">240</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="719788823765822">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="614882974744818" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">13</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="551707044989907" type="cars">
+                                    <param id="0" name="Анимация">&quot;c8&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="649814732463290" type="cars">
+                                    <param id="0" name="Максимальная скорость">500</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="784804851952126">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="306700635692077" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">14</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="300892160773591" type="cars">
+                                    <param id="0" name="Анимация">&quot;c7&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="553571199708733" type="cars">
+                                    <param id="0" name="Максимальная скорость">400</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="820775714178315">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="470419542936015" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="325320402446715" type="cars">
+                                    <param id="0" name="Анимация">&quot;c11&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="733794375508091" type="cars">
+                                    <param id="0" name="Максимальная скорость">340</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="905803509070605">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="311469321504594" type="cars">
+                            <param id="0" name="Объект">ENDcar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="100" name="Create local camera" sid="335439283891494" type="MagiCam">
+                            <param id="0" name="Name">&quot;2&quot;</param>
+                            <param id="1" name="X">0</param>
+                            <param id="2" name="Y">0</param>
+                            <param id="3" name="Scale">1</param>
+                            <param id="4" name="Active">1</param>
+                        </action>
+                        <action id="0" name="Follow object" sid="261949955127540" type="MagiCam">
+                            <param id="0" name="Camera">&quot;2&quot;</param>
+                            <param id="1" name="Object">ENDcar</param>
+                            <param id="2" name="Weight">6</param>
+                            <param id="3" name="Image point">0</param>
+                        </action>
+                        <action id="3" name="Enable following" sid="818368707367481" type="MagiCam">
+                            <param id="0" name="Camera">&quot;2&quot;</param>
+                            <param id="1" name="Following">0</param>
+                        </action>
+                        <action behavior="EaseTween" id="14" name="Stop" sid="273864027243243" type="carsBOT">
+                            <param id="0" name="Stop Mode">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="715263446136184" type="System">
+                            <param id="0" name="Variable">lvls</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="365722001123778" type="System">
+                            <param id="0" name="Group name">&quot;машинаБОТ&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="880917611509300" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action behavior="EaseTween" id="10" name="Start" sid="209950075364668" type="ENDtracca" />
+                        <action behavior="Car" id="8" name="Установить состояние" sid="581862585842474" type="cars">
+                            <param id="0" name="Состояние">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="508719571024222" type="ENDtracca">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="312091774503400">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="151709124437739" type="cars">
+                            <param id="0" name="Объект">bttTrain1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="675959112528221" type="bttTrain1">
+                            <param id="0" name="dA">15</param>
+                            <param id="1" name="Clockwise">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="229920092737762" title="управление">
+                    <sub-events>
+                        <event-block sid="358452488379972">
+                            <conditions>
+                                <condition id="2" name="Клавиша нажата" sid="506816064327873" type="Keyboard">
+                                    <param id="0" name="Клавиша">87</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Car" id="7" name="Симулировать управление" sid="992208029460543" type="cars">
+                                    <param id="0" name="Управление">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="186164439405948">
+                            <conditions>
+                                <condition id="2" name="Клавиша нажата" sid="781531925698518" type="Keyboard">
+                                    <param id="0" name="Клавиша">83</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Car" id="7" name="Симулировать управление" sid="280740093546411" type="cars">
+                                    <param id="0" name="Управление">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="484891548710472">
+                            <conditions>
+                                <condition id="2" name="Клавиша нажата" sid="390160410008609" type="Keyboard">
+                                    <param id="0" name="Клавиша">68</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Car" id="7" name="Симулировать управление" sid="231792928276514" type="cars">
+                                    <param id="0" name="Управление">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="588756729963673">
+                            <conditions>
+                                <condition id="2" name="Клавиша нажата" sid="737102876725452" type="Keyboard">
+                                    <param id="0" name="Клавиша">65</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Car" id="7" name="Симулировать управление" sid="427083401953474" type="cars">
+                                    <param id="0" name="Управление">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="657842647343349">
+                            <conditions>
+                                <condition id="2" name="Клавиша нажата" sid="160555040220688" type="Keyboard">
+                                    <param id="0" name="Клавиша">32</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Car" id="7" name="Симулировать управление" sid="504093777520032" type="cars">
+                                    <param id="0" name="Управление">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="274042346675748">
+                            <conditions>
+                                <condition id="2" name="Клавиша нажата" sid="906548391239546" type="Keyboard">
+                                    <param id="0" name="Клавиша">16</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="721321241471594" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action behavior="Car" id="0" name="Остановить" sid="272427577951496" type="cars" />
+                                <action id="-16" name="Wait" sid="978985703004956" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="639423434681323" title="кнопки">
+            <sub-events>
+                <event-block sid="951856810781097">
+                    <conditions>
+                        <condition id="17" name="Объект нажат" sid="635217527612618" type="Touch">
+                            <param id="0" name="Объект">bttLVLS</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="892058363877930" type="System">
+                            <param id="0" name="Layout">lvl4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="124442117774643">
+                    <conditions>
+                        <condition id="17" name="Объект нажат" sid="173953496085413" type="Touch">
+                            <param id="0" name="Объект">bttMENU</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="269939682229063" type="System">
+                            <param id="0" name="Layout">menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="111718163035794">
+                    <conditions>
+                        <condition id="17" name="Объект нажат" sid="732923127838908" type="Touch">
+                            <param id="0" name="Объект">btt_restart</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="189785935588098" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="765537090660380" title="звуки">
+            <sub-events>
+                <event-block sid="458050230758671">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="191781911084450" type="trainz">
+                            <param id="0" name="Объект">trigger_soungTRAIN1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Играть" sid="658834902596270" type="Аудио">
+                            <param id="0" name="Аудио файл">сигнал поезда</param>
+                            <param id="2" name="Петля">0</param>
+                            <param id="3" name="Громкость">0</param>
+                            <param id="1" name="Метка (необязательно)">&quot;3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="237282349923004">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="442034637015324" type="trainz">
+                            <param id="0" name="Объект">trigger_soungTRAIN3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Играть" sid="565190165893422" type="Аудио">
+                            <param id="0" name="Аудио файл">поезд едит</param>
+                            <param id="2" name="Петля">0</param>
+                            <param id="3" name="Громкость">0</param>
+                            <param id="1" name="Метка (необязательно)">&quot;4&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="690669221856372" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="6" name="Остановить" sid="451543432835848" type="Аудио">
+                            <param id="0" name="Тег">&quot;3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="985454703614124">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="495733191867118" type="trainz">
+                            <param id="0" name="Объект">trigger_soungTRAIN4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Остановить" sid="813388178483073" type="Аудио">
+                            <param id="0" name="Тег">&quot;3&quot;</param>
+                        </action>
+                        <action id="6" name="Остановить" sid="592245217185867" type="Аудио">
+                            <param id="0" name="Тег">&quot;4&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="969031601008115">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="132063344977937" type="cars">
+                            <param id="0" name="Объект">TRAIN</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Остановить" sid="539752656501264" type="Аудио">
+                            <param id="0" name="Тег">&quot;3&quot;</param>
+                        </action>
+                        <action id="6" name="Остановить" sid="681849818167087" type="Аудио">
+                            <param id="0" name="Тег">&quot;4&quot;</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="270637493347568" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="124319451435352" title="триггеры4">
+            <sub-events>
+                <event-block sid="653195649870452">
+                    <conditions>
+                        <condition behavior="RotateTo" id="3" name="Is rotating" sid="330743964234689" type="bttTrain1" />
+                    </conditions>
+                    <actions>
+                        <action behavior="EaseTween2" id="12" name="Pause" sid="578671668801299" type="вагоны" />
+                        <action behavior="EaseTween" id="12" name="Pause" sid="190934675156915" type="trainz" />
+                        <action behavior="Car" id="8" name="Установить состояние" sid="274093101756200" type="cars">
+                            <param id="0" name="Состояние">0</param>
+                        </action>
+                        <action behavior="Прокрутитьдо" id="1" name="Установить включение" sid="618633505585271" type="TRAIN">
+                            <param id="0" name="Состояние">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="550512938764067" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="851580032226687" type="TRAIN">
+                            <param id="0" name="dA">34</param>
+                            <param id="1" name="Clockwise">2</param>
+                        </action>
+                        <action id="-20" name="Set layout scale" sid="277063267165730" type="System">
+                            <param id="0" name="Scale">0.5</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="858592776627266">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="337756243806887" type="WAGON">
+                                    <param id="0" name="Unique ID">2927</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="362755912665469" type="WAGON">
+                                    <param id="0" name="dA">12</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="295434064649544">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="128473083633710" type="WAGON">
+                                    <param id="0" name="Unique ID">2926</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="755077361761980" type="WAGON">
+                                    <param id="0" name="dA">25</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="601099342636904">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="901192613285694" type="WAGON">
+                                    <param id="0" name="Unique ID">2925</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="734087153448823" type="WAGON">
+                                    <param id="0" name="dA">56</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="676629979943798">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="333912082687113" type="WAGON">
+                                    <param id="0" name="Unique ID">2921</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="251919052516354" type="WAGON">
+                                    <param id="0" name="dA">-67</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="490466120006027">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="587242012373475" type="WAGON2">
+                                    <param id="0" name="Unique ID">2926</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="834542844774120" type="WAGON2">
+                                    <param id="0" name="dA">37</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="908658923865648">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="123143543812171" type="WAGON2">
+                                    <param id="0" name="Unique ID">2922</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="638157185340514" type="WAGON2">
+                                    <param id="0" name="dA">-22</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="686117076891041">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="877646156751520" type="WAGON2">
+                                    <param id="0" name="Unique ID">2936</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="770771083080015" type="WAGON2">
+                                    <param id="0" name="dA">45</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="232457841371427">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="160158478078688" type="WAGON2">
+                                    <param id="0" name="Unique ID">2937</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="600908027321355" type="WAGON2">
+                                    <param id="0" name="dA">45</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="834789455731777">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="969962085378456" type="WAGON2">
+                                    <param id="0" name="Unique ID">2946</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="822373833249439" type="WAGON2">
+                                    <param id="0" name="dA">-11</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="815109498966381">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="144316987247216" type="WAGON3">
+                                    <param id="0" name="Unique ID">2924</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="820371123030865" type="WAGON3">
+                                    <param id="0" name="dA">-23</param>
+                                    <param id="1" name="Clockwise">2</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="812700246153636" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="321567007698318" type="System">
+                                    <param id="0" name="Layout">lvl5</param>
+                                </action>
+                                <action behavior="Прокрутитьдо" id="1" name="Установить включение" sid="842843119427619" type="TRAIN">
+                                    <param id="0" name="Состояние">0</param>
+                                </action>
+                                <action behavior="Car" id="8" name="Установить состояние" sid="755850392975745" type="cars">
+                                    <param id="0" name="Состояние">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="654290916222610" title="пасхалкаПОЕЗД">
+            <sub-events>
+                <event-block sid="694835590041312">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="661149234896068" type="EasterEGG2">
+                            <param id="0" name="Объект">EasterEGGtrain4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="0" name="Остановить" sid="341840475579544" type="EasterEGG2" />
+                    </actions>
+                </event-block>
+                <event-block sid="420977554989640">
+                    <conditions>
+                        <condition id="3" name="Выпущенная клавиша" sid="827916674049233" type="Keyboard">
+                            <param id="0" name="Клавиша">80</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Твердый" id="0" name="Set enabled" sid="588873335301437" type="EasterEGGtrain4">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Car" id="8" name="Установить состояние" sid="469919074553630" type="cars">
+                            <param id="0" name="Состояние">0</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Установить включение" sid="997897819977183" type="EasterEGG2">
+                            <param id="0" name="Состояние">1</param>
+                        </action>
+                        <action behavior="Car" id="8" name="Установить состояние" sid="582517065160597" type="EasterEGG2">
+                            <param id="0" name="Состояние">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="999694607740433">
+                    <conditions>
+                        <condition id="3" name="Выпущенная клавиша" sid="841503500023824" type="Keyboard">
+                            <param id="0" name="Клавиша">219</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Твердый" id="0" name="Set enabled" sid="962568946565698" type="EasterEGGtrain4">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Car" id="8" name="Установить состояние" sid="703160165644310" type="cars">
+                            <param id="0" name="Состояние">1</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Установить включение" sid="902896548911431" type="EasterEGG2">
+                            <param id="0" name="Состояние">0</param>
+                        </action>
+                        <action behavior="Car" id="8" name="Установить состояние" sid="825164404745666" type="EasterEGG2">
+                            <param id="0" name="Состояние">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="905141935134818">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="710234609212922" type="EasterEGG2">
+                            <param id="0" name="Объект">EasterEGGtrain1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="752487636830920" type="EasterEGG2">
+                            <param id="0" name="dA">349.548</param>
+                            <param id="1" name="Clockwise">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="917605617003658">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="583421656880509" type="EasterEGG2">
+                            <param id="0" name="Объект">EasterEGGtrain2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="654585978099275" type="EasterEGG2">
+                            <param id="0" name="dA">-349.548</param>
+                            <param id="1" name="Clockwise">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="211459115920034">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="554166732810613" type="EasterEGG2">
+                            <param id="0" name="Объект">EasterEGGtrain3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="RotateTo" id="7" name="Rotate by delta angle" sid="686378061051003" type="EasterEGG2">
+                            <param id="0" name="dA">-349.548</param>
+                            <param id="1" name="Clockwise">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="504330122291215">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="658537354852268" type="Keyboard">
+                            <param id="0" name="Клавиша">87</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="7" name="Симулировать управление" sid="736629822171461" type="EasterEGG2">
+                            <param id="0" name="Управление">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="725120210017392">
+                    <conditions>
+                        <condition id="2" name="Клавиша нажата" sid="954970511566232" type="Keyboard">
+                            <param id="0" name="Клавиша">83</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="7" name="Симулировать управление" sid="870630429665903" type="EasterEGG2">
+                            <param id="0" name="Управление">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="875939177653583" title="меню">
+            <sub-events>
+                <event-block sid="825301243600567">
+                    <conditions>
+                        <condition id="3" name="Выпущенная клавиша" sid="441237505635280" type="Keyboard">
+                            <param id="0" name="Клавиша">27</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Set pause state" sid="336442151351274" type="Pause">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="860495468632827" type="menu">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="350229585310782" type="System">
+                            <param id="0" name="Group name">&quot;менюКНОПКИ&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action disabled="1" id="-2" name="Set Y" sid="129494960635459" type="btt_menu">
+                            <param id="0" name="Y">962</param>
+                        </action>
+                        <action disabled="1" id="-2" name="Set Y" sid="492033170257819" type="btt_res_tart">
+                            <param id="0" name="Y">962</param>
+                        </action>
+                        <action disabled="1" id="-2" name="Set Y" sid="210425405355938" type="btt_resume">
+                            <param id="0" name="Y">962</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="944154337326289" type="btt_menu">
+                            <param id="0" name="X">710</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="559801441420187" type="btt_menu">
+                            <param id="0" name="Y">962</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="609937706740542" type="btt_res_tart">
+                            <param id="0" name="X">646</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="115390360346521" type="btt_res_tart">
+                            <param id="0" name="Y">962</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="140261806458438" title="doorTR">
+            <sub-events>
+                <event-block sid="369738768097015">
+                    <conditions>
+                        <condition id="0" name="В столкновении с другим объектом" sid="625909969301141" type="cars">
+                            <param id="0" name="Объект">triggerDOOR</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="EaseTween" id="10" name="Start" sid="781172505296557" type="забор_door" />
+                        <action id="-12" name="Set group active" sid="437570924220153" type="System">
+                            <param id="0" name="Group name">&quot;doorTR&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="223219402915477" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="888432633010219" title="таймер">
+            <sub-events>
+                <event-block sid="963847938111542">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="576433678834163" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Набор текста" sid="272330307922011" type="timeCAR">
+                            <param id="0" name="Текст">&quot;50&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="557708735204014" type="System">
+                            <param id="0" name="Seconds">0.7</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="274235707524950" type="timeCAR">
+                            <param id="0" name="Текст">&quot;49&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="510371915724510" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="610268273039624" type="timeCAR">
+                            <param id="0" name="Текст">&quot;48&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="459326059551014" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="220866138473151" type="timeCAR">
+                            <param id="0" name="Текст">&quot;47&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="740562835594235" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="915579828115904" type="timeCAR">
+                            <param id="0" name="Текст">&quot;46&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="467306177182644" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="406347437440382" type="timeCAR">
+                            <param id="0" name="Текст">&quot;45&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="466083409097394" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="464771214890936" type="timeCAR">
+                            <param id="0" name="Текст">&quot;44&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="317825592876968" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="897038861224975" type="timeCAR">
+                            <param id="0" name="Текст">&quot;43&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="147478877286652" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="403335273325483" type="timeCAR">
+                            <param id="0" name="Текст">&quot;42&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="194025423962249" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="994412875372068" type="timeCAR">
+                            <param id="0" name="Текст">&quot;41&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="448291443430241" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="865692514684380" type="timeCAR">
+                            <param id="0" name="Текст">&quot;40&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="596809225327332" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="339013946279758" type="timeCAR">
+                            <param id="0" name="Текст">&quot;39&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="738050993662921" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="168241545819074" type="timeCAR">
+                            <param id="0" name="Текст">&quot;38&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="749025952810033" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="580431284958561" type="timeCAR">
+                            <param id="0" name="Текст">&quot;37&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="515361714562062" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="364702985038425" type="timeCAR">
+                            <param id="0" name="Текст">&quot;36&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="691224127411941" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="666820743011670" type="timeCAR">
+                            <param id="0" name="Текст">&quot;35&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="552602800891915" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="278061817077126" type="timeCAR">
+                            <param id="0" name="Текст">&quot;34&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="932887630919874" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="682724333581651" type="timeCAR">
+                            <param id="0" name="Текст">&quot;33&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="181555012437672" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="363799008955475" type="timeCAR">
+                            <param id="0" name="Текст">&quot;32&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="203376755812555" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="681910169637547" type="timeCAR">
+                            <param id="0" name="Текст">&quot;31&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="190488578595685" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="239127943893664" type="timeCAR">
+                            <param id="0" name="Текст">&quot;30&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="633640109719970" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="376380389388899" type="timeCAR">
+                            <param id="0" name="Текст">&quot;29&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="134777790982149" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="812538162574493" type="timeCAR">
+                            <param id="0" name="Текст">&quot;28&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="110133052062339" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="994972210709358" type="timeCAR">
+                            <param id="0" name="Текст">&quot;27&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="630475522165357" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="954537206868054" type="timeCAR">
+                            <param id="0" name="Текст">&quot;26&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="133934768682001" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="996644123636301" type="timeCAR">
+                            <param id="0" name="Текст">&quot;25&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="636605480127591" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="624081585280633" type="timeCAR">
+                            <param id="0" name="Текст">&quot;24&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="785604581279786" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="499530033021823" type="timeCAR">
+                            <param id="0" name="Текст">&quot;23&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="824632698522364" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="619442247385814" type="timeCAR">
+                            <param id="0" name="Текст">&quot;22&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="311282428478455" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="707042533736817" type="timeCAR">
+                            <param id="0" name="Текст">&quot;21&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="917090039490863" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="698685804677150" type="timeCAR">
+                            <param id="0" name="Текст">&quot;20&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="418983217241517" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="595508306269241" type="timeCAR">
+                            <param id="0" name="Текст">&quot;19&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="829044378143162" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="574457954069476" type="timeCAR">
+                            <param id="0" name="Текст">&quot;18&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="153123137801264" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="266768531435356" type="timeCAR">
+                            <param id="0" name="Текст">&quot;17&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="315353891684045" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="814998143293403" type="timeCAR">
+                            <param id="0" name="Текст">&quot;16&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="647984299114905" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="701329164933435" type="timeCAR">
+                            <param id="0" name="Текст">&quot;15&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="381753352546922" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="145115589467835" type="timeCAR">
+                            <param id="0" name="Текст">&quot;14&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="440187070916161" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="609064281661146" type="timeCAR">
+                            <param id="0" name="Текст">&quot;13&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="190834489275311" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="389474245675187" type="timeCAR">
+                            <param id="0" name="Текст">&quot;12&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="742324823116663" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="317180194324986" type="timeCAR">
+                            <param id="0" name="Текст">&quot;11&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="189793068404051" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="791034836056948" type="timeCAR">
+                            <param id="0" name="Текст">&quot;10&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="927636667489025" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="181012152812669" type="timeCAR">
+                            <param id="0" name="Текст">&quot;9&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="432680856100491" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="888502611196747" type="timeCAR">
+                            <param id="0" name="Текст">&quot;8&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="375330477787921" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="947355845882913" type="timeCAR">
+                            <param id="0" name="Текст">&quot;7&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="650739293317960" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="152748280914880" type="timeCAR">
+                            <param id="0" name="Текст">&quot;6&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="555219965505271" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="424297211890325" type="timeCAR">
+                            <param id="0" name="Текст">&quot;5&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="916828997395591" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="314263788576392" type="timeCAR">
+                            <param id="0" name="Текст">&quot;4&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="174712964720248" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="119500947754844" type="timeCAR">
+                            <param id="0" name="Текст">&quot;3&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="318795304059951" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="486285930541491" type="timeCAR">
+                            <param id="0" name="Текст">&quot;2&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="267498185008949" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="137075808692075" type="timeCAR">
+                            <param id="0" name="Текст">&quot;1&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="500284908688530" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Набор текста" sid="867300314051506" type="timeCAR">
+                            <param id="0" name="Текст">&quot;0&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="228433872606458" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action disabled="1" id="-26" name="Restart layout" sid="990308706576485" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="282999668795255">
+            <conditions>
+                <condition id="2" inverted="1" name="Клавиша нажата" sid="564856896383909" type="Keyboard">
+                    <param id="0" name="Клавиша">71</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Установить кадр" sid="282190004460624" type="EasterEGG2">
+                    <param id="0" name="Номер кадра">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="641862500447499">
+            <conditions>
+                <condition id="2" name="Клавиша нажата" sid="400820558168740" type="Keyboard">
+                    <param id="0" name="Клавиша">71</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Установить кадр" sid="105202680458027" type="EasterEGG2">
+                    <param id="0" name="Номер кадра">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

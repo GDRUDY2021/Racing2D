@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>lvl4EVENT</name>
+    <events>
+        <event-block sid="387263770020935">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="101951268582067" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Car" id="9" name="Установить скорость вращения" sid="420611310020045" type="EasterEGG2">
+                    <param id="0" name="Скорость вращения">0</param>
+                </action>
+                <action behavior="Твердый" id="0" name="Set enabled" sid="740721600258013" type="EasterEGGtrain4">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="EaseTween" id="25" name="Force Reverse" sid="578653557301146" type="traffic2" />
+                <action id="-16" name="Wait" sid="340219484075590" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action behavior="EaseTween" id="10" name="Start" sid="437274566515055" type="traffic1" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

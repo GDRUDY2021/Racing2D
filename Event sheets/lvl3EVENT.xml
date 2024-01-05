@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>lvl3EVENT</name>
+    <events>
+        <event-block sid="931493889827077">
+            <conditions>
+                <condition id="0" name="В столкновении с другим объектом" sid="146178679446000" type="cars">
+                    <param id="0" name="Объект">triggerCAR2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="EaseTween" id="10" name="Start" sid="581541776736601" type="carsBOT3" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>loading</name>
+    <events>
+        <event-block sid="580758560202093">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="867135857718557" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Запрос на весь экран" sid="198806016412932" type="Browser">
+                    <param id="0" name="Режим">2</param>
+                </action>
+                <action id="0" name="Набор текста" sid="590022478062875" type="loadingBAR">
+                    <param id="0" name="Текст">&quot;0%&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="686358342450168" type="System">
+                    <param id="0" name="Seconds">0.4</param>
+                </action>
+                <action id="0" name="Набор текста" sid="289131458533782" type="loadingBAR">
+                    <param id="0" name="Текст">&quot;25%&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="125500663834077" type="System">
+                    <param id="0" name="Seconds">0.4</param>
+                </action>
+                <action id="0" name="Набор текста" sid="594710674153269" type="loadingBAR">
+                    <param id="0" name="Текст">&quot;78%&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="780454324807399" type="System">
+                    <param id="0" name="Seconds">0.4</param>
+                </action>
+                <action id="0" name="Набор текста" sid="979619557000838" type="loadingBAR">
+                    <param id="0" name="Текст">&quot;89%&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="867791790199865" type="System">
+                    <param id="0" name="Seconds">0.4</param>
+                </action>
+                <action id="0" name="Набор текста" sid="471465436328908" type="loadingBAR">
+                    <param id="0" name="Текст">&quot;100%&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="378854603580385" type="System">
+                    <param id="0" name="Seconds">0.4</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="179321316858457" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

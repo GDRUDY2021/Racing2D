@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>lvl1EVENT</name>
+    <events>
+        <include>MAIN</include>
+        <event-block sid="470672235497473">
+            <conditions>
+                <condition id="17" name="Объект нажат" sid="393139852732036" type="Touch">
+                    <param id="0" name="Объект">bttMENU</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="132406209562396" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="573678449902968">
+            <conditions>
+                <condition id="17" name="Объект нажат" sid="684120627694611" type="Touch">
+                    <param id="0" name="Объект">bttLVLS</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="219872422025834" type="System">
+                    <param id="0" name="Layout">lvl2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>shopEVENT</name>
+    <events>
+        <variable constant="0" name="cymmaSHOP" sid="867816663976566" static="0" type="number">0</variable>
+        <variable constant="0" name="cars" sid="980371717704623" static="0" type="number">0</variable>
+        <event-block sid="481747958111683">
+            <conditions>
+                <condition id="17" name="Объект нажат" sid="468609264624446" type="Touch">
+                    <param id="0" name="Объект">backSHOP</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="794000239297103" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="164465389274400" title="выбор машин">
+            <sub-events>
+                <event-group description="" sid="258422672922533" title="м1">
+                    <sub-events>
+                        <event-block sid="775178053982705">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="701462656914364" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="674589343037975" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q11&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="941370130757802" type="cars">
+                                    <param id="0" name="Максимальная скорость">500</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="202089341292180" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="596128582775836" title="м2">
+                    <sub-events>
+                        <event-block sid="621341705138487">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="436378575092857" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="434361334220168" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q10&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="931493013266834" type="cars">
+                                    <param id="0" name="Максимальная скорость">450</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="212445759780260" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                                <action id="0" name="Набор текста" sid="959630718139715" type="cymma_shop">
+                                    <param id="0" name="Текст">&quot;$0&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="161058235991916" title="м3">
+                    <sub-events>
+                        <event-block sid="128193726405452">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="658961284737811" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="398999400546136" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q12&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="549824106132170" type="cars">
+                                    <param id="0" name="Максимальная скорость">400</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="824007884458907" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="780049563437530" title="м4">
+                    <sub-events>
+                        <event-block sid="211898947011385">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="279797917227123" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="193104347005687" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q5&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="721780495398533" type="cars">
+                                    <param id="0" name="Максимальная скорость">300</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="785120465472644" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">4</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="277622457050452" title="м5">
+                    <sub-events>
+                        <event-block sid="651202661554807">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="810933686086313" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="491634345038426" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q4&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="355171795918382" type="cars">
+                                    <param id="0" name="Максимальная скорость">250</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="522815557392834" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="220770810838139" title="м6">
+                    <sub-events>
+                        <event-block sid="283683775803641">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="561119568754052" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="908071920125538" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q13&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="560146354906210" type="cars">
+                                    <param id="0" name="Максимальная скорость">200</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="754327346448015" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">6</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="853684629888972" title="м7">
+                    <sub-events>
+                        <event-block sid="136829038046302">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="473321994478401" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="554458824857096" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q16&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="675679028672351" type="cars">
+                                    <param id="0" name="Максимальная скорость">290</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="289113178735853" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">7</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="582523013745550" title="м8">
+                    <sub-events>
+                        <event-block sid="924547394466348">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="422574759062039" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="837852764079549" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q3&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="865088340419732" type="cars">
+                                    <param id="0" name="Максимальная скорость">100</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="436401707404091" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">8</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="673195874241725" title="м9">
+                    <sub-events>
+                        <event-block sid="715530429781345">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="448433469432393" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="305137605950697" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q1&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="959088512267500" type="cars">
+                                    <param id="0" name="Максимальная скорость">80</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="913645479328721" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">9</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="931718229012733" title="м10">
+                    <sub-events>
+                        <event-block sid="751519479883152">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="360110429668298" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="527121656506117" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q9&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="147935190323814" type="cars">
+                                    <param id="0" name="Максимальная скорость">370</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="627496214192497" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">10</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="691572464576325" title="м11">
+                    <sub-events>
+                        <event-block sid="168999445610287">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="670843785169685" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="295417897971033" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q8&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="755899908691523" type="cars">
+                                    <param id="0" name="Максимальная скорость">420</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="816006582699379" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">11</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="470968066199604" title="м12">
+                    <sub-events>
+                        <event-block sid="887692044392127">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="199171457114780" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="137950869663697" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q15&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="670449512307374" type="cars">
+                                    <param id="0" name="Максимальная скорость">240</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="262864243484754" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">12</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="596567911729275" title="м13">
+                    <sub-events>
+                        <event-block sid="414424371472731">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="145073142734273" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP13</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="865201158784876" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q7&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="145696990426862" type="cars">
+                                    <param id="0" name="Максимальная скорость">500</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="875691282385723" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">13</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="256327271067564" title="м14">
+                    <sub-events>
+                        <event-block sid="219311990985852">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="387878516807120" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP14</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="857516677105411" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q6&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="346301486328646" type="cars">
+                                    <param id="0" name="Максимальная скорость">400</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="431640895200398" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">14</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" inactive="1" sid="538212304453454" title="м15">
+                    <sub-events>
+                        <event-block sid="348285685375355">
+                            <conditions>
+                                <condition id="17" name="Объект нажат" sid="608961768849257" type="Touch">
+                                    <param id="0" name="Объект">carsSHOP15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Установить анимацию" sid="895969352261952" type="carDR">
+                                    <param id="0" name="Анимация">&quot;q14&quot;</param>
+                                    <param id="1" name="Из">1</param>
+                                </action>
+                                <action behavior="Car" id="4" name="Задать макс скорость" sid="699281314820308" type="cars">
+                                    <param id="0" name="Максимальная скорость">340</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="394821320961102" type="System">
+                                    <param id="0" name="Variable">cars</param>
+                                    <param id="1" name="Value">15</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

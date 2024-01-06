@@ -1,4 +1,6 @@
 The game is made on the Construct 2 engine
+---------------------------------------------------------------------------------------
+_**If you understand "Construct 2", then do not be surprised why there is a mess in the events and in the project itself, The fact is that at that time I did not understand the engine well, I simultaneously taught it and made the game, but right now I am trying to make the event code more normal and optimize the game well and put some sprites into frames.**_
 
 # Racing2D
 
